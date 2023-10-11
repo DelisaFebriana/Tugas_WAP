@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        .card {
+            width: 800px;
+            height: 400px; 
+            position: relative;
+            border: 2px solid #000; 
+            border-radius: 15px; 
+            margin: auto;
+            background-color: #F9DBBB;
+        }
+
+        .card-header {
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .profile-picture {
+            width: 25%;
+            float: left;
+            border-radius: 18px;
+            margin-right: 80px;
+            margin-left: 50px;
+            margin-block: 12px;
+        }
+        
+        .profile-text {
+        position: absolute;
+        top: 10px; 
+        left: 350px; 
+        }
+        
+        .label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align:center;margin-bottom: 50px; margin-top: 40px;">My Profile</h1>
+
+    <div class="card">
+        <img src="images/Delisa.jpg" alt="Profile Picture" class="profile-picture" width="400">
+        <div class="profile-text">
+            
+            <h2 class="label">Name </h2>
+            <pclass="label" style="margin-top: -20px;">Delisa Febriana</pclass>
+            
+            <h2 class="label">Occupation </h2>
+            <pclass="label" style="margin-top: -20px;">Student</pclass>
+            
+            <h2 class="label">Hobbies </h2>
+            <pclass="label" style="margin-top: -20px;"></pclass>
+            <ul>
+                <li>Travelling</li>
+                <li>Cooking</li>
+            </ul>
+
+            <h2 class="label">Zodiac </h2>
+            <pclass="label" style="margin-top: -20px;">Picces</pclass> 
+
+    </div>
+
+
+</html>
